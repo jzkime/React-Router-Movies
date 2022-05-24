@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+a, a:hover, a:visited {
+  text-decoration: none;
+  color:rgba(0, 0, 0)
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -60,6 +65,7 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
 }
 .save-button:hover {
   background-color: green;
@@ -69,4 +75,5 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+  cursor: pointer;
 }
